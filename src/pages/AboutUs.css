@@ -1,0 +1,50 @@
+.info {
+  height: 85vh;
+  width: 100vw;
+  border: 1px solid lightgrey;
+  margin: 20px 10px 0 30px;
+  border-radius: 10px 10px 0 0;
+}
+
+.infoHeader {
+  height: 50px;
+  width: 100%;
+  background: lightgrey;
+  padding-left: 20px;
+  padding-right: 150px;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.table input {
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  padding-left: 20px;
+  border: 1px solid grey;
+}
+
+.table p {
+  font-size: 16px;
+}
+
+.column button {
+  height: 50px;
+  width: 60px;
+  background: skyblue;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
+.table {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 100px;
+  gap: 1rem;
+}
