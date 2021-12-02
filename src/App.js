@@ -16,6 +16,7 @@ function App() {
     <Router>
       <Sidebar />
       <Routes>
+        <Route path="/" exact element={<AboutUs />} />
         <Route path="/about-us" exact element={<AboutUs />} />
         <Route path="/services" exact element={<Services />} />
         <Route path="/services/services1" exact element={<ServicesOne />} />
