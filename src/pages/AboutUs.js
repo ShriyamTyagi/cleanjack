@@ -277,7 +277,7 @@ export const AboutUs = () => {
               1 tot 25 van 61 resultaten
             </div>
 
-            <div>
+            {/* <div>
               <nav aria-label="...">
                 <ul class="pagination">
                   <li class="page-item disabled">
@@ -293,7 +293,7 @@ export const AboutUs = () => {
                   </li>
                 </ul>
               </nav>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
