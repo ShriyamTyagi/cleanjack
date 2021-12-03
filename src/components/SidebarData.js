@@ -10,16 +10,5 @@ export const SidebarData = [
     path: "/about-us",
     iconClosed: <RiIcons.RiArrowDownSFill style={{ color: "#6fd5ef" }} />,
     iconOpened: <RiIcons.RiArrowUpSFill style={{ color: "#6fd5ef" }} />,
-
-    subNav: [
-      {
-        title: "Beheer Locaties",
-        path: "/about-us/aim",
-      },
-      {
-        title: "Beheer Medwerkers",
-        path: "/about-us/vision",
-      },
-    ],
   },
 ];
