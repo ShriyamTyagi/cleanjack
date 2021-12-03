@@ -3,13 +3,215 @@
   margin: 0;
   padding: 0;
 }
-.home,
-.services,
-.reports,
-.contact,
-.events,
-.support {
+.home {
   display: flex;
   margin-left: 260px;
   font-size: 2rem;
+}
+
+/* body {
+  padding: 0 15px;
+} */
+
+p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+.info {  
+  width: 100%;
+  border: 1px solid lightgrey;
+}
+
+.heading {
+  font-weight: bold;
+}
+
+.heading p {
+  font-size: 25px;
+}
+
+.filter-button {
+  background: skyblue;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  width: 50px;
+  height: 35px;
+}
+
+table input {
+  margin: 0 10px;
+  font-size: 15px;
+  height: 35px;
+  padding: 0 10px;
+  background-image: url('https://i.ibb.co/hRFqzK8/down-arrow.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 12px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.contact-input, .address {
+  background-image: none;
+}
+
+table input:focus {
+  outline: none;
+}
+
+.info .infoHeader {
+  display: flex;
+  align-items: center;  
+  background: #fefefe; /* Old browsers */
+  background: -moz-linear-gradient(top,  #fefefe 0%, #eeeeee 100%);
+  background: -webkit-linear-gradient(top,  #fefefe 0%,#eeeeee 100%);
+  background: linear-gradient(to bottom,  #fefefe 0%,#eeeeee 100%);
+  padding: 15px 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.user-name {
+  color: #256fb7;
+  font-weight: bold;
+  width: calc(100% - 300px);
+}
+
+.week {
+  font-weight: bold;
+  text-align: left;
+  width: 300px;
+}
+
+.right-arrow {
+  float: right;
+  text-align: right;
+  width: 120px;
+}
+
+.red {
+  color: #eb0045;
+}
+
+.blue {
+  color: #003173;
+}
+
+.right-dropdown button {
+  background-color: transparent;
+  border: none;
+  color: #317abc;
+}
+
+.right-dropdown button:focus {
+  outline: none;
+}
+
+.right-dropdown button span {margin-right: 10px;}
+
+table {  
+  font-size: 15px;
+  margin: 20px;
+  width: calc(100% - 40px) !important;
+}
+
+.first-row {
+  font-size: 15px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.first-row td {
+  padding: 10px;
+  vertical-align: middle;
+}
+.first-row td { white-space:  nowrap;}
+thead tr th {
+  padding: 10px 0;
+}
+
+.type {
+  width: 100px;
+}
+
+.address {
+  width: 150px;
+}
+
+tbody tr td {
+  padding:  10px;
+}
+
+.tr-heading {
+  font-weight: bold;
+  color: #5589c9;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;  
+  font-size: 20px;
+  background-color: #efeded;
+}
+
+.tableFixHead {
+  overflow-y: auto;
+  height: 600px;
+}
+.tableFixHead thead {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+.border-bottom-gray {
+  border-bottom: 1px solid gray;
+}
+
+.pagination-section {
+  font-size: 15px;
+  padding: 0 20px;
+}
+
+.section-border {
+  border-bottom: 1px solid gray;
+  margin-bottom: 30px;
+}
+
+.parent-section {
+  display: flex;
+  padding: 0 15px;
+}
+.parent-section .home {
+  width: calc(100% - 280px);
+  margin-left: 30px;
+}
+
+.parent-section nav div a span {
+  color: #256fb7;
+  padding: 0;
+  margin: 0;
+}
+
+.parent-section nav div a {
+  padding: 10px;
+  height: auto;
+}
+
+.sc-iqseJM.cjFkiI {
+  display: none;
+}
+
+.top-header .header-section{
+  padding: 0 15px;
+}
+.right-dropdown {
+  padding-right: 15px;
+}
+.sc-jRQBWg.iGJxvL {
+  height: inherit;
+}
+
+table tbody tr {
+  border-bottom: 1px solid gray;
 }

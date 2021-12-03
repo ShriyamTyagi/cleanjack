@@ -90,7 +90,7 @@ export const AboutUs = () => {
 
                 <th>
                   <div className="d-flex">
-                    <input placeholder="Contact" />
+                    <input placeholder="Contact"  className="contact-input"/>
                   </div>
                 </th>
 
